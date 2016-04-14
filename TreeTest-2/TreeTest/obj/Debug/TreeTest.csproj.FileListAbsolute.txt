@@ -1,0 +1,6 @@
+C:\Users\gunte\OneDrive\Documents\Visual Studio 2015\Projects\TreeTest\TreeTest\bin\Debug\TreeTest.exe.config
+C:\Users\gunte\OneDrive\Documents\Visual Studio 2015\Projects\TreeTest\TreeTest\bin\Debug\TreeTest.exe
+C:\Users\gunte\OneDrive\Documents\Visual Studio 2015\Projects\TreeTest\TreeTest\bin\Debug\TreeTest.pdb
+C:\Users\gunte\OneDrive\Documents\Visual Studio 2015\Projects\TreeTest\TreeTest\obj\Debug\TreeTest.csprojResolveAssemblyReference.cache
+C:\Users\gunte\OneDrive\Documents\Visual Studio 2015\Projects\TreeTest\TreeTest\obj\Debug\TreeTest.exe
+C:\Users\gunte\OneDrive\Documents\Visual Studio 2015\Projects\TreeTest\TreeTest\obj\Debug\TreeTest.pdb
