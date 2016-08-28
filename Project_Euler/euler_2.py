@@ -3,14 +3,18 @@
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
 def fibonnacci_list(limit):
-    if limit > 2:
-        list = [1, 2]
+    if limit <= 1:
+        return [,]
+    elif limit == 2:
+        return [1,]
+    else: # limit > 2
+        f_list = [1, 2]
         next_num = 0
         while next_num < limit:
-            next_num = list[-1] + list [-2]
-            list.append(next_num)
-        return list[:-1] # goes one too far --hack
-
+            next_num = f_list[-1] + f_list [-2]
+            if next_num < limit:
+                f_list.append(next_num)
+        return f_list
 
 if __name__ == '__main__':
     fib_sum = 0
