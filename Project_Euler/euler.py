@@ -32,7 +32,7 @@ def max_prime_factor(n):
     pass
 
 def proper_divisors(n):
-    pass
+    return {x for x in range(1, (n + 1) // 2 + 1) if n % x == 0 and n != x}
 
 def primes(limit):
     pass
