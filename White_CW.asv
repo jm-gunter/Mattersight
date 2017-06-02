@@ -1,0 +1,36 @@
+%White_CW.m
+
+% White Faces
+set(W(1),'FaceColor',(get(W(7),'FaceColor')))
+set(W(2),'FaceColor',(get(W(4),'FaceColor')))
+set(W(3),'FaceColor',(get(W(1),'FaceColor')))
+set(W(4),'FaceColor',(get(W(8),'FaceColor')))
+set(W(6),'FaceColor',(get(W(2),'FaceColor')))
+set(W(7),'FaceColor',(get(W(9),'FaceColor')))
+set(W(8),'FaceColor',(get(W(6),'FaceColor')))
+set(W(9),'FaceColor',(get(W(3),'FaceColor')))
+
+% X Faces
+x1=get(R(3),'FaceColor');
+x2=get(R(6),'FaceColor');
+x3=get(R(9),'FaceColor');
+
+% Red Faces
+set(R(3),'FaceColor',(get(B(9),'FaceColor')))
+set(R(6),'FaceColor',(get(B(6),'FaceColor')))
+set(R(9),'FaceColor',(get(B(3),'FaceColor')))
+
+% Blue Faces
+set(B(3),'FaceColor',(get(O(3),'FaceColor')))
+set(B(6),'FaceColor',(get(O(6),'FaceColor')))
+set(B(9),'FaceColor',(get(O(9),'FaceColor')))
+
+% Orange Faces
+set(O(3),'FaceColor',(get(G(9),'FaceColor')))
+set(O(6),'FaceColor',(get(G(6),'FaceColor')))
+set(O(9),'FaceColor',(get(G(3),'FaceColor')))
+
+% Blue Faces
+set(G(3),'FaceColor',x1)
+set(G(6),'FaceColor',x2)
+set(G(9),'FaceColor',x3)
