@@ -1,4 +1,4 @@
-#Rubik's Cube Game
+# Rubik's Cube Game
 
 A simple Rubik's Cube game writen in MatLab. To run you will need ...Matlab. The main file is RubikGUI.m.
 
